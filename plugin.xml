@@ -249,10 +249,6 @@
 
         <source-file src="src/android/Diagnostic.java" target-dir="src/cordova/plugins" />
 
-        <preference name="ANDROID_SUPPORT_VERSION" default="28.+" />
-        <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_VERSION" />
-        <framework src="com.android.support:appcompat-v7:$ANDROID_SUPPORT_VERSION" />
-
         <!--BEGIN_MODULE LOCATION-->
         <config-file target="config.xml" parent="/*">
             <feature name="Diagnostic_Location" >
